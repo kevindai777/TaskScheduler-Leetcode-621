@@ -30,6 +30,7 @@ for (let key in map) {
     }
 }
     
+//If the cooldown is 0, just return the tasks length
 //The number of slots to use is defined by the most frequent task
 //(maxFrequency - 1) represents how many groups of "task + cooling period" we need
 //(n + 1) is from n slots for the cooling and +1 is from the actual execution of the task
